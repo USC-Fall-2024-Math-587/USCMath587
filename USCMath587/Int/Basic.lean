@@ -1,6 +1,6 @@
 import Batteries.Data.Int.Lemmas
 
-open Int
+namespace Int
 
 theorem natAbs_emod_lt_natAbs (m : Int) {n : Int} (hn : n ≠ 0) :
     (m % n).natAbs < n.natAbs := by
